@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{BA9D1F75-E0C9-4441-96CF-62227FA40AE5}|Projeto1DW\\Projeto1DW.csproj|solutionrelative:projeto1dw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA9D1F75-E0C9-4441-96CF-62227FA40AE5}|Projeto1DW\\Projeto1DW.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\projeto1dw\\projeto1dw\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BA9D1F75-E0C9-4441-96CF-62227FA40AE5}|Projeto1DW\\Projeto1DW.csproj|solutionrelative:projeto1dw\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BA9D1F75-E0C9-4441-96CF-62227FA40AE5}|Projeto1DW\\Projeto1DW.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\projeto1dw\\projeto1dw\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA9D1F75-E0C9-4441-96CF-62227FA40AE5}|Projeto1DW\\Projeto1DW.csproj|solutionrelative:projeto1dw\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -36,7 +32,7 @@
               "RelativeDocumentMoniker": "Projeto1DW\\Program.cs",
               "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\Projeto1DW\\Projeto1DW\\Program.cs",
               "RelativeToolTip": "Projeto1DW\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T15:26:28.457Z",
               "EditorCaption": ""
@@ -44,19 +40,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\Projeto1DW\\Projeto1DW\\appsettings.json",
-              "RelativeDocumentMoniker": "Projeto1DW\\appsettings.json",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\Projeto1DW\\Projeto1DW\\appsettings.json",
-              "RelativeToolTip": "Projeto1DW\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-12T15:21:36.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\Projeto1DW\\Projeto1DW\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Projeto1DW\\Data\\ApplicationDbContext.cs",
@@ -64,12 +47,11 @@
               "RelativeToolTip": "Projeto1DW\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T15:13:52.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T15:13:52.743Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\Projeto1DW\\Projeto1DW\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "Projeto1DW\\Models\\Produto.cs",
@@ -77,8 +59,7 @@
               "RelativeToolTip": "Projeto1DW\\Models\\Produto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T15:00:32.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T15:00:32.888Z"
             }
           ]
         }
