@@ -1,0 +1,41 @@
+﻿@model IEnumerable<SistemaAcademico.Models.Aluno>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de Alunos</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Novo Aluno</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ra)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Usuario)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ra)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Usuario.Email)
+            </td>
+            <td>
+                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.AlunoId">Editar</a>
+                <a class="btn btn-secondary" asp-action="Details" asp-route-id="@item.AlunoId">Detalhes</a>
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.AlunoId">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

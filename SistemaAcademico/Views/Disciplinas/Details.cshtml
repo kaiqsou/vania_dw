@@ -1,0 +1,29 @@
+﻿@model SistemaAcademico.Models.Disciplina
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>DETALHES da Disciplina</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Curso)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Curso.CursoId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-secondary" asp-action="Edit" asp-route-id="@Model?.DisciplinaId">Editar</a>
+    <a class="btn btn-warning" asp-action="Index">Voltar</a>
+</div>

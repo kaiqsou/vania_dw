@@ -1,0 +1,42 @@
+﻿@model SistemaAcademico.Models.Matricula
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>CREATE da Matrícula</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Data" class="control-label"></label>
+                <input asp-for="Data" class="form-control" />
+                <span asp-validation-for="Data" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdCurso" class="control-label"></label>
+                <input asp-for="IdCurso" class="form-control" />
+                <span asp-validation-for="IdCurso" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdAluno" class="control-label"></label>
+                <input asp-for="IdAluno" class="form-control" />
+                <span asp-validation-for="IdAluno" class="text-danger"></span>
+            </div><br />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div><br />
+
+<div>
+    <a class="btn btn-warning" asp-action="Index">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
