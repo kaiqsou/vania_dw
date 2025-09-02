@@ -16,12 +16,12 @@
                 <label asp-for="Data" class="control-label"></label>
                 <input asp-for="Data" class="form-control" />
                 <span asp-validation-for="Data" class="text-danger"></span>
-            </div>
+            </div><br />
             <div class="form-group">
                 <label asp-for="IdCurso" class="control-label"></label>
                 <input asp-for="IdCurso" class="form-control" />
                 <span asp-validation-for="IdCurso" class="text-danger"></span>
-            </div>
+            </div><br />
             <div class="form-group">
                 <label asp-for="IdAluno" class="control-label"></label>
                 <input asp-for="IdAluno" class="form-control" />
@@ -29,14 +29,13 @@
             </div><br />
             <div class="form-group">
                 <input type="submit" value="Salvar" class="btn btn-primary" />
+                <a class="btn btn-warning" asp-action="Index">Voltar</a>
             </div>
         </form>
     </div>
 </div><br />
 
-<div>
-    <a class="btn btn-warning" asp-action="Index">Voltar</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

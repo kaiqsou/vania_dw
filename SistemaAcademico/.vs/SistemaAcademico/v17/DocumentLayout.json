@@ -3,124 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\controllers\\matriculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:controllers\\matriculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\matriculas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\matriculas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\matriculas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\matriculas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\matriculas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\matriculas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\matriculas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\matriculas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\disciplinas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\disciplinas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\matriculas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\matriculas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\disciplinas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\disciplinas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\disciplinas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\disciplinas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\disciplinas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\disciplinas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\cursos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\cursos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\cursos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\cursos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\cursos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\cursos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\alunos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\alunos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\alunos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\alunos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\alunos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\alunos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\alunos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\alunos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\cursos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\cursos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\models\\disciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:models\\disciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\sistemaacademico\\views\\alunos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{344E15E7-C39C-401E-BCDB-053AE36CCB49}|SistemaAcademico.csproj|solutionrelative:views\\alunos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,383 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Usuarios\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Usuarios\\Create.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Usuarios\\Create.cshtml",
-              "RelativeToolTip": "Views\\Usuarios\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T15:17:04.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T15:10:27.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Aluno.cs",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Models\\Aluno.cs",
-              "RelativeDocumentMoniker": "Models\\Aluno.cs",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Models\\Aluno.cs",
-              "RelativeToolTip": "Models\\Aluno.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T15:09:42.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Matriculas\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Matriculas\\Details.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Matriculas\\Details.cshtml",
-              "RelativeToolTip": "Views\\Matriculas\\Details.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:59:41.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Disciplinas\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Disciplinas\\Details.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Disciplinas\\Details.cshtml",
-              "RelativeToolTip": "Views\\Disciplinas\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:55:45.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 0,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Cursos\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cursos\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Cursos\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Cursos\\Edit.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAA4AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Disciplinas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Disciplinas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Disciplinas\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Disciplinas\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:53:40.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Cursos\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cursos\\Details.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Cursos\\Details.cshtml",
-              "RelativeToolTip": "Views\\Cursos\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:50:39.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Matriculas\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Matriculas\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Matriculas\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Matriculas\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:49:21.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Disciplinas\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Disciplinas\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Disciplinas\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Disciplinas\\Delete.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:49:06.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Cursos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cursos\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Cursos\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Cursos\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:49:00.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Matriculas\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Matriculas\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Matriculas\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Matriculas\\Edit.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:37:52.749Z",
+              "WhenOpened": "2025-09-02T12:46:50.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Matriculas\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Matriculas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Matriculas\\Index.cshtml",
-              "RelativeToolTip": "Views\\Matriculas\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:28:37.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Matriculas\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Matriculas\\Create.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Matriculas\\Create.cshtml",
-              "RelativeToolTip": "Views\\Matriculas\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:22:29.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Matricula.cs",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Models\\Matricula.cs",
-              "RelativeDocumentMoniker": "Models\\Matricula.cs",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Models\\Matricula.cs",
-              "RelativeToolTip": "Models\\Matricula.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T14:21:37.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MatriculasController.cs",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Controllers\\MatriculasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MatriculasController.cs",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Controllers\\MatriculasController.cs",
-              "RelativeToolTip": "Controllers\\MatriculasController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wB0AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T14:17:09.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:33:28.714Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Usuarios\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Usuarios\\Details.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Usuarios\\Details.cshtml",
-              "RelativeToolTip": "Views\\Usuarios\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:39:57.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Usuarios\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Usuarios\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Usuarios\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Usuarios\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:42:50.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Alunos\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Alunos\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Alunos\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Alunos\\Edit.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Matriculas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Matriculas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Matriculas\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Matriculas\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:44:27.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Alunos\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Alunos\\Details.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Alunos\\Details.cshtml",
-              "RelativeToolTip": "Views\\Alunos\\Details.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:46:16.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Alunos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Alunos\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Alunos\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Alunos\\Delete.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:48:21.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Disciplinas\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Disciplinas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Disciplinas\\Index.cshtml",
-              "RelativeToolTip": "Views\\Disciplinas\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:25:28.895Z",
+              "WhenOpened": "2025-09-02T12:42:35.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Cursos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cursos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Cursos\\Index.cshtml",
-              "RelativeToolTip": "Views\\Cursos\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:23:00.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Alunos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Alunos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Alunos\\Index.cshtml",
-              "RelativeToolTip": "Views\\Alunos\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:18:42.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:13:04.661Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Disciplina.cs",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Models\\Disciplina.cs",
-              "RelativeDocumentMoniker": "Models\\Disciplina.cs",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Models\\Disciplina.cs",
-              "RelativeToolTip": "Models\\Disciplina.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T14:10:57.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Curso.cs",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Models\\Curso.cs",
-              "RelativeDocumentMoniker": "Models\\Curso.cs",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Models\\Curso.cs",
-              "RelativeToolTip": "Models\\Curso.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T14:10:12.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 2,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Usuarios\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Usuarios\\Edit.cshtml",
               "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Usuarios\\Edit.cshtml",
               "RelativeToolTip": "Views\\Usuarios\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:06:15.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Usuarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Usuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Usuarios\\Index.cshtml",
-              "RelativeToolTip": "Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T14:05:35.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Alunos\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Alunos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\SistemaAcademico\\Views\\Alunos\\Create.cshtml",
-              "RelativeToolTip": "Views\\Alunos\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T13:58:25.793Z"
+              "WhenOpened": "2025-09-02T12:42:33.066Z",
+              "EditorCaption": ""
             }
           ]
         }
