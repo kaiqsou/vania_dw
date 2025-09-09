@@ -21,10 +21,28 @@
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+                        </li>                        
+
+                        @if (User != null && User.Identity != null && User.Identity.IsAuthenticated)
+                        // @if (User?.Identity?.IsAuthenticated ?? false) - É a mesma coisa
+                        {
+                            // Está logado. Opções: sair
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">Sair</a>
+                            </li>
+                        }
+                        else
+                        {
+                            // Não está logado. Opções: registrar ou entrar
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Create">Registrar</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Entrar</a>
+                            </li>
+                        }
+                        
                     </ul>
                 </div>
             </div>

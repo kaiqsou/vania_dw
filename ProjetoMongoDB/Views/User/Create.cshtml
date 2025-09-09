@@ -1,8 +1,8 @@
-﻿@model ProjetoMongoDb.Models.User
+﻿@model ProjetoMongoDB.Models.User
 @{
 	ViewData["title"] = "Create";
 	Layout = "~/Views/Shared/_layout.cshtml";
-};
+}
 
 <h1>Create</h1>
 <h4>User</h4>
@@ -12,7 +12,7 @@
 		@if(ViewBag.Message != null)
 		{
 			<div class="p-1 mb-2 bg-success text-dark">
-				@ViewBag.Message;
+				@ViewBag.Message
 			</div>
 		}
 
@@ -36,7 +36,7 @@
 			<!-- Form da Senha -->
 			<div class="form-group">
 				<label asp-for="Password" class="control-label"></label>
-				<input asp-for="Password" class="form-control" />
+				<input type="password" asp-for="Password" class="form-control" />
 				<span asp-validation-for="Password" class="text-danger"></span>
 			</div>
 
@@ -48,8 +48,8 @@
 	</div>
 </div>
 
-@section Script{
+@section Scripts{
 	@{
-		await Html.RenderPartialAsync("_ValidationScriptPartial");
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
 	}
 }
