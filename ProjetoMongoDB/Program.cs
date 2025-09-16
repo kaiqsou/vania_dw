@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using ProjetoMongoDB.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +14,9 @@ ContextMongoDb.Isssl = Convert.ToBoolean(builder.Configuration.GetSection("Mongo
 // Configuração do Identity
 builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
     .AddMongoDbStores<ApplicationUser, ApplicationRole, Guid>
-    (ContextMongoDb.ConnectionString, ContextMongoDb.DatabaseName);
+    (ContextMongoDb.ConnectionString, ContextMongoDb.DatabaseName)
+    .AddDefaultTokenProviders(); // Usado para gerar os tokens
+    
 
 var app = builder.Build();
 
