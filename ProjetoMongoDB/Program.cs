@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using ProjetoMongoDB.Models;
+using ProjetoMongoDB.Services;
+using ProjetoMongoDB.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +18,10 @@ builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
     .AddMongoDbStores<ApplicationUser, ApplicationRole, Guid>
     (ContextMongoDb.ConnectionString, ContextMongoDb.DatabaseName)
     .AddDefaultTokenProviders(); // Usado para gerar os tokens
-    
+
+// Configuração do Envio de E-mail
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailService"));
+builder.Services.AddTransient<EmailService>();
 
 var app = builder.Build();
 

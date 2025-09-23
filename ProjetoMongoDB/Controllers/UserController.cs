@@ -1,6 +1,7 @@
 ﻿using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using ProjetoMongoDB.Models;
@@ -19,14 +20,15 @@ namespace ProjetoMongoDB.Controllers
         }
 
         // GET do CREATE
-        public IActionResult Create()   // IActionResult permite várias coisas, como views
+        public IActionResult Create(string role)   // IActionResult permite várias coisas, como views
         {
+            ViewBag.Role = role;
             return View();
         }
 
         // POST do CREATE
         [HttpPost]
-        public async Task<IActionResult> Create(User user)
+        public async Task<IActionResult> Create(User user, string role)
         {
             // Início do IF
             // Se estiver tudo ok com o modelo da classe, cria o usuário
@@ -64,6 +66,7 @@ namespace ProjetoMongoDB.Controllers
 
                 if (result.Succeeded)
                 {
+                    await _userManager.AddToRoleAsync(appUser, role);
                     // ViewBag 'carrega' coisas pra view
                     ViewBag.Message = "Usuário cadastrado com sucesso"; 
                 }
@@ -78,6 +81,36 @@ namespace ProjetoMongoDB.Controllers
             // Fim do IF
 
             return View(user); // retorna os campos preenchidos para não ter a necessidade de reescrever, em caso de erro
+        }
+
+        // Inserir perfis no Banco de Dados - apenas Administradores
+        [Authorize(Roles = "Administrador")]
+        public IActionResult CreateRole()
+        {
+            return View();
+        }
+
+        [Authorize(Roles = "Administrador")]
+        public async Task<IActionResult> CreateRole(UserRole userRole)
+        {
+            if (ModelState.IsValid)
+            {
+                IdentityResult result = await _roleManager.CreateAsync(new ApplicationRole() { Name = userRole.RoleName });
+
+                if (result.Succeeded)
+                {
+                    ViewBag.Message = "Tipo de usuário cadastrado com sucesso";
+                }
+                else
+                {
+                    foreach (IdentityError error in result.Errors)
+                    {
+                        ModelState.AddModelError("", error.Description);
+                    }
+                }
+            }
+
+            return View();
         }
     }
 }

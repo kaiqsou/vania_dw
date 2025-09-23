@@ -5,19 +5,22 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using ProjetoMongoDB.Models;
+using ProjetoMongoDB.Services;
 using ProjetoMongoDB.ViewModels;
 
 namespace ProjetoMongoDB.Controllers
 {
     public class AccountController : Controller
     {
+        private EmailService _emailService;
         private UserManager<ApplicationUser> _userManager;
         private SignInManager<ApplicationUser> _signInManager; // gerenciar o Login
 
-        public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+        public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, EmailService emailService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _emailService = emailService;
         }
         public IActionResult Login()
         {
@@ -90,7 +93,7 @@ namespace ProjetoMongoDB.Controllers
 
             var model = new ResetPasswordViewModel
             {
-                token = token,
+                Token = token,
                 UserId = userId
             };
 
