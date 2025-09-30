@@ -90,6 +90,7 @@ namespace ProjetoMongoDB.Controllers
             return View();
         }
 
+        [HttpPost]
         [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> CreateRole(UserRole userRole)
         {

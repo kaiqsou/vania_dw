@@ -23,6 +23,9 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>                        
 
+                        <!-- Mostrar a partialView de administrador -->
+                        <partial name="_LoginAdmin.cshtml" /> 
+
                         @if (User != null && User.Identity != null && User.Identity.IsAuthenticated)
                         // @if (User?.Identity?.IsAuthenticated ?? false) - É a mesma coisa
                         {
