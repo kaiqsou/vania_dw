@@ -32,8 +32,15 @@ namespace ProjetoMongoDB.Models
             {
                 throw new Exception("Não foi possível conectar no MongoDB");
             }
-        } 
+        }
         // Fim do construtor
+
+        public IMongoCollection<Evento> Evento
+        {
+            get
+            {
+                return _database.GetCollection<Evento>("Evento");
+            }
+        }
     }
-    // Fim da Classe
-}
+} // Fim da Classe

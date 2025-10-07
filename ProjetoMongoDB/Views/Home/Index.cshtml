@@ -1,8 +1,42 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<ProjetoMongoDB.Models.Evento>
+
+@{
+    ViewData["Title"] = "Página Inicial";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
+
+<h2>Próximos Eventos</h2>
+<hr />
+
+<div class="row">
+    @foreach(var evento in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">@evento.Nome</h5>
+                    <p class="card-text">@evento.Descricao</p>
+                    <p class="card-text">
+                        <small class="text-muted">@evento.Data: @evento.HorarioInicio.ToString(@"hh\:mm") às @evento.HorarioFim.ToString(@"hh\:mm")</small>
+                    </p>
+                </div>
+
+                <div class="card-footer">
+                    <form asp-controller="Evento" asp-action="Registrar" asp-route-id="@evento.Id" method="post" class="d-inline">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-sm btn-success">Inscreva-se</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
 </div>
