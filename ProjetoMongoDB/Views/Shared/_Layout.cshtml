@@ -29,7 +29,11 @@
                         @if (User != null && User.Identity != null && User.Identity.IsAuthenticated)
                         // @if (User?.Identity?.IsAuthenticated ?? false) - É a mesma coisa
                         {
-                            // Está logado. Opções: sair
+                            // Está logado. Opções: MeusEventos e sair
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="MeusEventos">Sair</a>
+                            </li>
+
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">Sair</a>
                             </li>

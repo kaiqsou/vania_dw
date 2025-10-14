@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\projetomongodb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\projetomongodb\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|solutionrelative:controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\projetomongodb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\projetomongodb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\projetomongodb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\projetomongodb\\views\\evento\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|solutionrelative:views\\evento\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\projetomongodb\\views\\home\\meuseventos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|solutionrelative:views\\home\\meuseventos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\projetomongodb\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|solutionrelative:usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\projetomongodb\\views\\shared\\_loginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|solutionrelative:views\\shared\\_loginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\projetomongodb\\views\\evento\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|solutionrelative:views\\evento\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|c:\\users\\0201392321040\\desktop\\vania_dw\\projetomongodb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E86143C-7030-46D6-A556-9DE27CE9D29F}|ProjetoMongoDB.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,127 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:38:39.637Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T13:46:56.717Z",
+              "WhenOpened": "2025-10-14T15:36:40.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MeusEventos.cshtml",
+              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Views\\Home\\MeusEventos.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\MeusEventos.cshtml",
+              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Views\\Home\\MeusEventos.cshtml",
+              "RelativeToolTip": "Views\\Home\\MeusEventos.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T15:35:30.764Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EventoController.cs",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Controllers\\EventoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EventoController.cs",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Controllers\\EventoController.cs*",
-              "RelativeToolTip": "Controllers\\EventoController.cs*",
-              "ViewState": "AgIAAMQAAAAAAAAAAAAAANMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:05:53.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-07T13:45:14.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAD0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-07T13:41:43.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-07T13:38:41.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Views\\Evento\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Evento\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Views\\Evento\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Evento\\Edit.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-07T13:26:29.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Views\\Evento\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Evento\\Create.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Views\\Evento\\Create.cshtml",
-              "RelativeToolTip": "Views\\Evento\\Create.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-07T13:25:38.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "usuarios.cs",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\usuarios.cs",
-              "RelativeDocumentMoniker": "usuarios.cs",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\usuarios.cs",
-              "RelativeToolTip": "usuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T13:22:12.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_LoginAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Views\\Shared\\_LoginAdmin.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LoginAdmin.cshtml",
-              "ToolTip": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\Views\\Shared\\_LoginAdmin.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LoginAdmin.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-07T13:18:57.703Z",
               "EditorCaption": ""
             }
           ]

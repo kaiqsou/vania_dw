@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MongoDB.Driver;
 using ProjetoMongoDB.Models;
+using ProjetoMongoDB.Services;
 
 namespace ProjetoMongoDB.Controllers
 {
@@ -182,13 +183,15 @@ namespace ProjetoMongoDB.Controllers
                 if (result.ModifiedCount > 0)
                 {
                     // disparar um evento que envia o e-mail para o inscrito
+                    await EventoNotifier.DispararRegistro(user, evento);
+
                     TempData["Message"] = "Inscrição realizada com sucesso. Você receberá um e-mail com mais informações do evento";
                 }
                 else
                 {
                     TempData["Message"] = "Você já está inscrito!";
                 }
-            } 
+            }
             else
             {
                 TempData["Error"] = "Tente novamente mais tarde! Sua inscrição não foi realizada";

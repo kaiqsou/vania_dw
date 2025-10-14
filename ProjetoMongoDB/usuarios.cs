@@ -1,4 +1,0 @@
-﻿// admin
-
-// kakazito
-// senha: 

@@ -36,5 +36,32 @@ namespace ProjetoMongoDB.Services
             // Desconexão
             await smtp.DisconnectAsync(true);
         }
+
+        public async Task HandleRegistroAsync(RegistroEventArgs args)
+        {
+            // Nome do Evento
+            string subject = $"Confirmação de Inscrição: {args.EventoRegistrado.Nome}";
+
+            // Corpo do E-mail
+            string body = $@"
+                <html>
+                    <body>
+                        <h2>Parabéns, {args.Participante.NomeCompleto}</h2>
+                        <p>A sua inscrição no evento <strong>{args.EventoRegistrado.Nome}</strong> foi confirmada com sucesso!</p>
+
+                        <p>Detalhes do seu evento: </p>
+
+                        <ul>
+                            <li><strong>Data: {args.EventoRegistrado.Data:dd/MM/yyyy}</strong></li>
+                            <li><strong>Horário: das {args.EventoRegistrado.HorarioInicio.ToString(@"hh\:mm")} às 
+                            {args.EventoRegistrado.HorarioFim.ToString(@"hh\:mm")}</strong></li>
+                        </ul>
+
+                        <p>Agradecemos a sua participação!</p>
+                    </body>
+                </html>";
+
+            await SendEmailAsync(args.Participante.Email, subject, body);
+        }
     }
 }
