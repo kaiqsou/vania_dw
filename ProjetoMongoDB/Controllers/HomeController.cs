@@ -1,9 +1,10 @@
-using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using MongoDB.Driver;
 using ProjetoMongoDB.Models;
+using System.Diagnostics;
 
 namespace ProjetoMongoDB.Controllers
 {
@@ -12,14 +13,12 @@ namespace ProjetoMongoDB.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly ContextMongoDb _context;
         private UserManager<ApplicationUser> _userManager;
-        private SignInManager<ApplicationUser> _signInManager;
 
-        public HomeController(ILogger<HomeController> logger, ContextMongoDb context, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+        public HomeController(ILogger<HomeController> logger, ContextMongoDb context, UserManager<ApplicationUser> userManager)
         {
             _logger = logger;
             _context = context;
             _userManager = userManager;
-            _signInManager = signInManager;
         }
 
         public async Task<IActionResult> Index()
@@ -27,11 +26,21 @@ namespace ProjetoMongoDB.Controllers
             return View(await _context.Evento.Find(_ => true).ToListAsync());
         }
 
-        public async Task<IActionResult> MeusEventos(string email)
+        [Authorize(Roles = "Participante")]
+        public async Task<IActionResult> MeusEventos()
         {
-            ApplicationUser appuser = await _userManager.FindByEmailAsync(email);
+            var userName = User.Identity?.Name;
 
-            return View(await _context.Evento.Find(e => e.Id == appuser.Id).ToListAsync());
+            ApplicationUser foundUser = await _userManager.FindByNameAsync(userName);
+
+            if (foundUser == null)
+            {
+                return NotFound();
+            }
+
+            var meusEventos = await _context.Evento.Find(e => e.Participantes.Contains(foundUser.Id)).ToListAsync();
+
+            return View(meusEventos);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

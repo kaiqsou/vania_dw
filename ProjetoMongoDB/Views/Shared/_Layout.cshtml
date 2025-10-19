@@ -30,9 +30,12 @@
                         // @if (User?.Identity?.IsAuthenticated ?? false) - É a mesma coisa
                         {
                             // Está logado. Opções: MeusEventos e sair
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="MeusEventos">Sair</a>
-                            </li>
+                            if (User.IsInRole("Participante"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-route-id="@User.Identity.Name" asp-controller="Home" asp-action="MeusEventos">Meus Eventos</a>
+                                </li>
+                            }
 
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">Sair</a>

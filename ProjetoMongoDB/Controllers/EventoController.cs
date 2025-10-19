@@ -164,7 +164,6 @@ namespace ProjetoMongoDB.Controllers
         {
             // obter o usuário logado
             var user = await _userManager.GetUserAsync(User);
-            Guid participanteId = user.Id;
 
             // buscar o evento pelo id
             var evento = await _context.Evento.Find(e => e.Id == id).FirstOrDefaultAsync();
@@ -175,7 +174,7 @@ namespace ProjetoMongoDB.Controllers
             }
 
             var filter = Builders<Evento>.Filter.Eq(e => e.Id, id);
-            var update = Builders<Evento>.Update.AddToSet(e => e.Participantes, participanteId);
+            var update = Builders<Evento>.Update.AddToSet(e => e.Participantes, user.Id);
             var result = await _context.Evento.UpdateOneAsync(filter, update);
 
             if (result.IsAcknowledged)
@@ -197,21 +196,51 @@ namespace ProjetoMongoDB.Controllers
                 TempData["Error"] = "Tente novamente mais tarde! Sua inscrição não foi realizada";
             }
 
-            /*
-            if (result.IsAcknowledged && result.ModifiedCount > 0)
+            return RedirectToAction("Index", "Home");
+        }
+
+        [HttpPost]
+        [Authorize(Roles = "Participante")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Cancelar(Guid id)
+        {
+            // Busca o UserName do usuário logado
+            var userName = User.Identity?.Name;
+
+            // Busca o objeto usuário (ApplicationUser) através do FindByName
+            var user = await _userManager.FindByNameAsync(userName);
+
+            // Busca o Evento com o Id recebido para cancelamento
+            var evento = await _context.Evento.Find(e => e.Id == id).FirstOrDefaultAsync();
+
+            // Verifica se user ou evento retornou nulo, e caso sim, dará NotFound
+            if (user == null || evento == null)
             {
-                // disparar um evento que envia o e-mail para o inscrito
-                TempData["Message"] = "Inscrição realizada com sucesso. Você receberá um e-mail com mais informações do evento";
+                return NotFound();
             }
-            else if (result.IsAcknowledged && result.ModifiedCount == 0)
+
+            // Verifica se o Id do usuário está na lista de Participantes do evento
+            if (evento.Participantes.Contains(user.Id))
             {
-                TempData["Message"] = "Você já está inscrito!";
+                // Filtro MongoDB para encontrar o evento com o Id correspondente - Equal
+                var filter = Builders<Evento>.Filter.Eq(e => e.Id, id);
+
+                // Operação de atualização que remove o Id do usuário da lista de Participantes - Pull
+                var update = Builders<Evento>.Update.Pull(e => e.Participantes, user.Id);
+
+                // Executa a atualização, aplicando o Filter e o Update criados
+                var result = await _context.Evento.UpdateOneAsync(filter, update);
+
+                // Verifica se a atualização foi bem-sucedida e se alterou linhas, exibindo mensagens diferentes para caso sim ou caso não
+                if (result.IsAcknowledged && result.ModifiedCount > 0)
+                {
+                    TempData["Message"] = "Sua inscrição foi cancelada com sucesso!";
+                }
+                else
+                {
+                    TempData["Error"] = "Não foi possível cancelar a sua inscrição.";
+                }
             }
-            else
-            {
-                TempData["Error"] = "Tente novamente mais tarde! Sua inscrição não foi realizada";
-            }
-            */
 
             return RedirectToAction("Index", "Home");
         }

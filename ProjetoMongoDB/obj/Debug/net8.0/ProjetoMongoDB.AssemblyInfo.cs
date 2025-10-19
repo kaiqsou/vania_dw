@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoMongoDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea08c59f3416ffb4d574b326c7355ab0ae2cc3b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc1eebf5d8357bb6128873938309e44e6b8d427e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetoMongoDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetoMongoDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
