@@ -31,16 +31,33 @@ namespace ProjetoMongoDB.Controllers
         {
             var userName = User.Identity?.Name;
 
-            ApplicationUser foundUser = await _userManager.FindByNameAsync(userName);
+            ApplicationUser user = await _userManager.FindByNameAsync(userName);
 
-            if (foundUser == null)
+            if (user == null)
             {
                 return NotFound();
             }
 
-            var meusEventos = await _context.Evento.Find(e => e.Participantes.Contains(foundUser.Id)).ToListAsync();
+            var meusEventos = await _context.Evento.Find(e => e.Data > DateOnly.FromDateTime(DateTime.Now) && e.Participantes.Contains(user.Id)).ToListAsync();
 
             return View(meusEventos);
+        }
+
+        [Authorize(Roles = "Participante")]
+        public async Task<IActionResult> Participacoes()
+        {
+            var userName = User.Identity?.Name;
+
+            ApplicationUser user = await _userManager.FindByNameAsync(userName);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            var participacoes = await _context.Evento.Find(e => e.Data <= DateOnly.FromDateTime(DateTime.Now) && e.Participantes.Contains(user.Id)).ToListAsync();
+
+            return View(participacoes);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

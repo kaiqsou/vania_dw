@@ -204,11 +204,8 @@ namespace ProjetoMongoDB.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Cancelar(Guid id)
         {
-            // Busca o UserName do usuário logado
-            var userName = User.Identity?.Name;
-
-            // Busca o objeto usuário (ApplicationUser) através do FindByName
-            var user = await _userManager.FindByNameAsync(userName);
+            // Busca o usuário logado
+            var user = await _userManager.GetUserAsync(User);
 
             // Busca o Evento com o Id recebido para cancelamento
             var evento = await _context.Evento.Find(e => e.Id == id).FirstOrDefaultAsync();
@@ -244,5 +241,18 @@ namespace ProjetoMongoDB.Controllers
 
             return RedirectToAction("Index", "Home");
         }
+
+        [HttpPost]
+        [Authorize(Roles = "Participante")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> GerarCertificado(Guid id)
+        {
+            var user = await _userManager.GetUserAsync(User);
+
+            var evento = await _context.Evento.Find(e => e.Id == id).FirstOrDefaultAsync();
+
+            return RedirectToAction("Index", "Home");
+        }
+
     }//fim da classe
 }

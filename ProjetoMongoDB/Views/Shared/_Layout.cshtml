@@ -33,7 +33,11 @@
                             if (User.IsInRole("Participante"))
                             {
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-route-id="@User.Identity.Name" asp-controller="Home" asp-action="MeusEventos">Meus Eventos</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-route-id="@User.Identity.Name" asp-controller="Home" asp-action="MeusEventos">Eventos Inscritos</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-route-id="@User.Identity.Name" asp-controller="Home" asp-action="Participacoes">Participações</a>
                                 </li>
                             }
 

@@ -1,0 +1,39 @@
+﻿@model IEnumerable<ProjetoMongoDB.Models.Evento>
+
+@{
+    ViewData["Title"] = "Participações";
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
+
+<h2>Participações</h2>
+<hr />
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Evento</th>
+            <th>Data</th>
+            <th>Certificado</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var evento in Model)
+        {
+            <tr>
+                <td>@evento.Nome</td>
+                <td>@evento.Data.ToString("dd/MM/yyyy")</td>
+                <td><button class="btn-success">Gerar Certificado</button></td>
+            </tr>
+        }
+    </tbody>
+</table>
