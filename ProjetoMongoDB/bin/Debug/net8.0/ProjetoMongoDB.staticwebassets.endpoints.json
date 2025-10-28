@@ -85,6 +85,170 @@
       ]
     },
     {
+      "Route": "Rotativa/wkhtmltopdf.exe",
+      "AssetFile": "Rotativa/wkhtmltopdf.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30235648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2bPSyBSW6Lulzfa832+D48S2LRVHoQhrw4xqa/GryGk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Jun 2020 20:03:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2bPSyBSW6Lulzfa832+D48S2LRVHoQhrw4xqa/GryGk="
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltopdf.jhzul28502.exe",
+      "AssetFile": "Rotativa/wkhtmltopdf.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30235648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2bPSyBSW6Lulzfa832+D48S2LRVHoQhrw4xqa/GryGk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Jun 2020 20:03:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jhzul28502"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2bPSyBSW6Lulzfa832+D48S2LRVHoQhrw4xqa/GryGk="
+        },
+        {
+          "Name": "label",
+          "Value": "Rotativa/wkhtmltopdf.exe"
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltox.dll",
+      "AssetFile": "Rotativa/wkhtmltox.dll",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30098944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iNxZZXLKktPxM/H7DLlXJX1yLDrALZChCToBLvGVq/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Jun 2020 20:02:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iNxZZXLKktPxM/H7DLlXJX1yLDrALZChCToBLvGVq/s="
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltox.w25v45g9f1.dll",
+      "AssetFile": "Rotativa/wkhtmltox.dll",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30098944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iNxZZXLKktPxM/H7DLlXJX1yLDrALZChCToBLvGVq/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Jun 2020 20:02:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w25v45g9f1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iNxZZXLKktPxM/H7DLlXJX1yLDrALZChCToBLvGVq/s="
+        },
+        {
+          "Name": "label",
+          "Value": "Rotativa/wkhtmltox.dll"
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "css/site.css",
       "Selectors": [],

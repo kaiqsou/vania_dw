@@ -5,6 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using MongoDB.Driver;
 using ProjetoMongoDB.Models;
 using ProjetoMongoDB.Services;
+using ProjetoMongoDB.ViewModels;
+using Rotativa.AspNetCore;
 
 namespace ProjetoMongoDB.Controllers
 {
@@ -93,9 +95,9 @@ namespace ProjetoMongoDB.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Administrador")]
-        public async Task<IActionResult> Edit(Guid id, [Bind("Id,Nome,Descricao,Data,Tipo,HorarioInicio,HorarioFim")] Evento evento)
+        public async Task<IActionResult> Edit(Guid id, [Bind("Id,Nome,Descricao,Data,Tipo,HorarioInicio,HorarioFim")] Evento eventoAtualizado)
         {
-            if (id != evento.Id)
+            if (id != eventoAtualizado.Id)
             {
                 return NotFound();
             }
@@ -104,11 +106,30 @@ namespace ProjetoMongoDB.Controllers
             {
                 try
                 {
-                    await _context.Evento.ReplaceOneAsync(m => m.Id == evento.Id, evento);
+                    // 1. CARREGAR O EVENTO ORIGINAL
+                    var eventoOriginal = await _context.Evento
+                        .Find(m => m.Id == eventoAtualizado.Id)
+                        .FirstOrDefaultAsync();
+
+                    if (eventoOriginal == null)
+                    {
+                        return NotFound();
+                    }
+
+                    // 2. ATUALIZAR OS DADOS DO EVENTO ORIGINAL (PRESERVANDO PARTICIPANTES)
+                    eventoOriginal.Nome = eventoAtualizado.Nome;
+                    eventoOriginal.Descricao = eventoAtualizado.Descricao;
+                    eventoOriginal.Data = eventoAtualizado.Data; // GARANTINDO QUE A DATA ESTÁ AQUI
+                    eventoOriginal.HorarioInicio = eventoAtualizado.HorarioInicio;
+                    eventoOriginal.HorarioFim = eventoAtualizado.HorarioFim;
+                    eventoOriginal.Tipo = eventoAtualizado.Tipo;
+
+                    // 3. SUBSTITUIR O DOCUMENTO COMPLETO
+                    await _context.Evento.ReplaceOneAsync(m => m.Id == eventoOriginal.Id, eventoOriginal);
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (MongoException)
                 {
-                    if (!EventoExists(evento.Id))
+                    if (!EventoExists(eventoAtualizado.Id))
                     {
                         return NotFound();
                     }
@@ -119,7 +140,7 @@ namespace ProjetoMongoDB.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(evento);
+            return View(eventoAtualizado);
         }
 
         // GET: Evento/Delete/5
@@ -242,17 +263,54 @@ namespace ProjetoMongoDB.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        [HttpPost]
         [Authorize(Roles = "Participante")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> GerarCertificado(Guid id)
+        public async Task<IActionResult> MeusCertificados()
         {
             var user = await _userManager.GetUserAsync(User);
+            var agora = DateTime.Now;
+            var dataAtual = DateOnly.FromDateTime(agora);
 
-            var evento = await _context.Evento.Find(e => e.Id == id).FirstOrDefaultAsync();
+            var eventosPassados = await _context.Evento.Find(e => e.Participantes.Contains(user.Id) && (e.Data < dataAtual)).ToListAsync();
 
-            return RedirectToAction("Index", "Home");
+            return View(eventosPassados);
         }
 
-    }//fim da classe
+        [Authorize(Roles = "Participante")]
+        public async Task<IActionResult> Emitir(Guid id)
+        {
+            // Buscar os dados do usuário logado
+            var user = await _userManager.GetUserAsync(User);
+
+            // Buscar os dados do evento
+            var evento = await _context.Evento.Find(e => e.Id == id).FirstOrDefaultAsync();
+
+            if (evento != null)
+            {
+                return NotFound();
+            }
+
+            // Criar os dados do certificado
+            var cargaHoraria = evento.HorarioFim - evento.HorarioInicio;
+            // TimeSpan cargaHoraria = evento.HorarioFim.Subtract(evento.HorarioInicio);
+
+            var model = new CertificadoViewModel()
+            {
+                Titulo = "Certificado",
+                NomeParticipante = user.NomeCompleto,
+                NomeEvento = evento.Nome,
+                Data = evento.Data,
+                TipoEvento = evento.Tipo,
+                CargaHoraria = Convert.ToInt32(cargaHoraria)
+            };
+
+            // Passar para a View Certificado
+            return new ViewAsPdf("Certificado", model)
+            {
+                FileName = "Certificado.pdf",
+                PageSize = Rotativa.AspNetCore.Options.Size.A4,
+                PageOrientation = Rotativa.AspNetCore.Options.Orientation.Landscape,
+                PageMargins = new Rotativa.AspNetCore.Options.Margins { Top = 10, Bottom = 10 }
+            };
+        }
+    } //fim da classe
 }

@@ -32,7 +32,7 @@
             <tr>
                 <td>@evento.Nome</td>
                 <td>@evento.Data.ToString("dd/MM/yyyy")</td>
-                <td><button class="btn-success">Gerar Certificado</button></td>
+                <td><button asp-controller="Evento" asp-action="Emitir" asp-route-eventoId="@evento.Id" class="btn-success"><i class="fas fa-file-pdf"></i>Gerar Certificado</button></td>
             </tr>
         }
     </tbody>

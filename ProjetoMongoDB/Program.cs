@@ -4,6 +4,9 @@ using ProjetoMongoDB.Services;
 using ProjetoMongoDB.Settings;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using ProjetoMongoDB.Seed;
+using System;
+using ProjetoMongoDB.Seed;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,16 +29,24 @@ builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("Emai
 builder.Services.AddSingleton<EmailService>();
 
 builder.Services.AddScoped<ContextMongoDb>();
+builder.Services.AddScoped<IUserClaimsPrincipalFactory<ApplicationUser>, UserClaimsPrincipalFactory<ApplicationUser, ApplicationRole>>();
 
 var app = builder.Build();
 
 // Lógica da assinatura no evento
 using (var scope = app.Services.CreateScope())
 {
+    // Obtém a instância Singleton do EmailService
     var emailService = scope.ServiceProvider.GetRequiredService<EmailService>();
 
-    // Assinante
+    // Assina o evento! Agora, toda vez que o evento for disparado, o método HandleRegistroAsync será chamado.
     EventoNotifier.OnParticipanteRegistrado += emailService.HandleRegistroAsync;
+
+    // Obtém a senha da nova seção AdminSettings no appsettings.json
+    var defaultAdminPassword = app.Configuration["AdminSettings:DefaultPassword"] ?? throw new InvalidOperationException("AdminSettings:DefaultPassword não configurada.");
+
+    // Chama o método de seed para criar a Role e o Usuário Admin
+    await IdentitySeeder.SeedRolesAndAdminUser(scope.ServiceProvider, defaultAdminPassword);
 }
 
 if (!app.Environment.IsDevelopment())

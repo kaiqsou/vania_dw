@@ -29,18 +29,42 @@ namespace ProjetoMongoDB.Controllers
         [Authorize(Roles = "Participante")]
         public async Task<IActionResult> MeusEventos()
         {
-            var userName = User.Identity?.Name;
-
-            ApplicationUser user = await _userManager.FindByNameAsync(userName);
+            var user = await _userManager.GetUserAsync(User);
 
             if (user == null)
             {
                 return NotFound();
             }
 
-            var meusEventos = await _context.Evento.Find(e => e.Data > DateOnly.FromDateTime(DateTime.Now) && e.Participantes.Contains(user.Id)).ToListAsync();
+            var agora = DateTime.Now;
+            var dataAtual = DateOnly.FromDateTime(agora);
+            var horaAtual = agora.TimeOfDay;
 
-            return View(meusEventos);
+            // Construção do Filtro com Builders<T>
+            var filterBuilder = Builders<Evento>.Filter;
+
+            // 1. Filtro de Inscrição: e.Participantes.Contains(participanteId)
+            // Usamos AnyEq, que é o método recomendado do driver para o Contains em arrays/listas.
+            var filtroInscricao = filterBuilder.AnyEq(e => e.Participantes, user.Id);
+
+            // 2. Filtro de DURAÇÃO (O evento ainda não acabou)
+            // Condição 1: Eventos em datas estritamente futuras.
+            // O evento de 29/10/2025 (ou posterior) é sempre válido.
+            // e.Data > dataAtual
+            var filtroDataFutura = filterBuilder.Gt(e => e.Data, dataAtual);
+
+            // Condição 2: Eventos na data atual E com HorárioFim estritamente MAIOR que a hora atual.
+            // Se o HorarioFim é 01:00:00 e a horaAtual é 01:03:46, este filtro será FALSO (01:00:00 > 01:03:46 é FALSO).
+            // (e.Data == dataAtual && e.HorarioFim > horaAtual)
+            var filtroMesmaDataComHoraValida = filterBuilder.And(filterBuilder.Eq(e => e.Data, dataAtual), filterBuilder.Gt(e => e.HorarioFim, horaAtual));
+
+            var filtroDuracao = filterBuilder.Or(filtroDataFutura, filtroMesmaDataComHoraValida);
+            var filtroCombinado = filterBuilder.And(filtroInscricao, filtroDuracao);
+
+            var eventos = await _context.Evento.Find(filtroCombinado).ToListAsync();
+         // var meusEventos = await _context.Evento.Find(e => e.Data > dataAtual && e.Participantes.Contains(user.Id)).ToListAsync();
+
+            return View(eventos);
         }
 
         [Authorize(Roles = "Participante")]

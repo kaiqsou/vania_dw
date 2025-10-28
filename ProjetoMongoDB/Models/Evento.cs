@@ -29,7 +29,7 @@ namespace ProjetoMongoDB.Models
         [Required, Display(Name = "Horário de Fim")]
         public TimeSpan HorarioFim { get; set; }
 
-        [Display(Name = "Horário de fim")]
+        [Display(Name = "Participantes")]
         public ICollection<Guid> Participantes { get; set; } = new List<Guid>();
     }
 }

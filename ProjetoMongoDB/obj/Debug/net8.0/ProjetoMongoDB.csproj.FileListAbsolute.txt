@@ -565,3 +565,5 @@ C:\Users\kaiqs\Desktop\vania_dw\ProjetoMongoDB\obj\Debug\net8.0\refint\ProjetoMo
 C:\Users\kaiqs\Desktop\vania_dw\ProjetoMongoDB\obj\Debug\net8.0\ProjetoMongoDB.pdb
 C:\Users\kaiqs\Desktop\vania_dw\ProjetoMongoDB\obj\Debug\net8.0\ProjetoMongoDB.genruntimeconfig.cache
 C:\Users\kaiqs\Desktop\vania_dw\ProjetoMongoDB\obj\Debug\net8.0\ref\ProjetoMongoDB.dll
+C:\Users\0201392321040\Desktop\vania_dw\ProjetoMongoDB\obj\Debug\net8.0\ProjetoMongoDB.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\0201392321040\Desktop\vania_dw\ProjetoMongoDB\bin\Debug\net8.0\Rotativa.AspNetCore.dll

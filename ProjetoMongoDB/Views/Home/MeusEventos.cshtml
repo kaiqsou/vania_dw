@@ -31,12 +31,24 @@
                         </p>
                     </div>
 
+                @{
+                    // 1. Constrói o Momento de Início do Evento
+                    var momentoInicioEvento = new DateTime(evento.Data.Year, evento.Data.Month, evento.Data.Day) + evento.HorarioInicio;
+
+                    // 2. Calcula o Momento de Corte (1 hora ANTES do início do evento).
+                    var momentoCorteCancelamento = momentoInicioEvento.Subtract(new TimeSpan(1, 0, 0));
+                }
+
+                @* 3. Compara: Se a hora atual é ANTERIOR ao Momento de Corte, o cancelamento é permitido. *@
+                @if (DateTime.Now < momentoCorteCancelamento)
+                {
                     <div class="card-footer">
                         <form asp-controller="Evento" asp-action="Cancelar" asp-route-id="@evento.Id" method="post" class="d-inline">
                             @Html.AntiForgeryToken()
                             <button type="submit" class="btn btn-sm btn-danger">Cancelar</button>
                         </form>
                     </div>
+                }
                 </div>
             </div>
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qgENA3bYoBKpJzs+VSZThL5Rn8v3DN8hGQZw/eDxPGc=",
+  "Hash": "62eMMqOgKHPMT+UfuRtdkxMYuDg07myM1RmVs89zUdE=",
   "Source": "ProjetoMongoDB",
   "BasePath": "_content/ProjetoMongoDB",
   "Mode": "Default",
@@ -1317,6 +1317,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "SourceId": "ProjetoMongoDB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\wwwroot\\",
+      "BasePath": "_content/ProjetoMongoDB",
+      "RelativePath": "Rotativa/wkhtmltopdf#[.{fingerprint}]?.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jhzul28502",
+      "Integrity": "2bPSyBSW6Lulzfa832+D48S2LRVHoQhrw4xqa/GryGk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Rotativa\\wkhtmltopdf.exe"
+    },
+    {
+      "Identity": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\wwwroot\\Rotativa\\wkhtmltox.dll",
+      "SourceId": "ProjetoMongoDB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\wwwroot\\",
+      "BasePath": "_content/ProjetoMongoDB",
+      "RelativePath": "Rotativa/wkhtmltox#[.{fingerprint}]?.dll",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w25v45g9f1",
+      "Integrity": "iNxZZXLKktPxM/H7DLlXJX1yLDrALZChCToBLvGVq/s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Rotativa\\wkhtmltox.dll"
     }
   ],
   "Endpoints": [
@@ -6401,6 +6443,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-Ekf2pfSYmDgbIwi7bb2nutv24EF2oLjLQdYcOLZSIsw="
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltopdf.exe",
+      "AssetFile": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30235648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2bPSyBSW6Lulzfa832+D48S2LRVHoQhrw4xqa/GryGk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Jun 2020 20:03:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2bPSyBSW6Lulzfa832+D48S2LRVHoQhrw4xqa/GryGk="
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltopdf.jhzul28502.exe",
+      "AssetFile": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30235648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2bPSyBSW6Lulzfa832+D48S2LRVHoQhrw4xqa/GryGk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Jun 2020 20:03:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jhzul28502"
+        },
+        {
+          "Name": "label",
+          "Value": "Rotativa/wkhtmltopdf.exe"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2bPSyBSW6Lulzfa832+D48S2LRVHoQhrw4xqa/GryGk="
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltox.dll",
+      "AssetFile": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\wwwroot\\Rotativa\\wkhtmltox.dll",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30098944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iNxZZXLKktPxM/H7DLlXJX1yLDrALZChCToBLvGVq/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Jun 2020 20:02:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iNxZZXLKktPxM/H7DLlXJX1yLDrALZChCToBLvGVq/s="
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltox.w25v45g9f1.dll",
+      "AssetFile": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\wwwroot\\Rotativa\\wkhtmltox.dll",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30098944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iNxZZXLKktPxM/H7DLlXJX1yLDrALZChCToBLvGVq/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Jun 2020 20:02:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w25v45g9f1"
+        },
+        {
+          "Name": "label",
+          "Value": "Rotativa/wkhtmltox.dll"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iNxZZXLKktPxM/H7DLlXJX1yLDrALZChCToBLvGVq/s="
         }
       ]
     }

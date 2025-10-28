@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AaAuvCX9Kwo=",
+  "dgSpecHash": "i7BuXh8Fv+g=",
   "success": true,
   "projectFilePath": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\ProjetoMongoDB.csproj",
   "expectedPackageFiles": [
@@ -141,6 +141,7 @@
     "C:\\Users\\0201392321040\\.nuget\\packages\\nuget.projectmodel\\6.11.0\\nuget.projectmodel.6.11.0.nupkg.sha512",
     "C:\\Users\\0201392321040\\.nuget\\packages\\nuget.protocol\\6.11.0\\nuget.protocol.6.11.0.nupkg.sha512",
     "C:\\Users\\0201392321040\\.nuget\\packages\\nuget.versioning\\6.11.0\\nuget.versioning.6.11.0.nupkg.sha512",
+    "C:\\Users\\0201392321040\\.nuget\\packages\\rotativa.aspnetcore\\1.4.0\\rotativa.aspnetcore.1.4.0.nupkg.sha512",
     "C:\\Users\\0201392321040\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\0201392321040\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
     "C:\\Users\\0201392321040\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",

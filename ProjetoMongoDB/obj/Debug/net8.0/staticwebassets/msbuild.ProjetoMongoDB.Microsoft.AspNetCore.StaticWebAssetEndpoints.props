@@ -732,5 +732,29 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ekf2pfSYmDgbIwi7bb2nutv24EF2oLjLQdYcOLZSIsw="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Ekf2pfSYmDgbIwi7bb2nutv24EF2oLjLQdYcOLZSIsw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 16 Sep 2025 12:55:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ProjetoMongoDB/Rotativa/wkhtmltopdf.exe">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Rotativa\wkhtmltopdf.exe'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2bPSyBSW6Lulzfa832\u002BD48S2LRVHoQhrw4xqa/GryGk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"30235648"},{"Name":"Content-Type","Value":"application/vnd.microsoft.portable-executable"},{"Name":"ETag","Value":"\u00222bPSyBSW6Lulzfa832\u002BD48S2LRVHoQhrw4xqa/GryGk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 10 Jun 2020 20:03:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ProjetoMongoDB/Rotativa/wkhtmltopdf.jhzul28502.exe">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Rotativa\wkhtmltopdf.exe'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jhzul28502"},{"Name":"integrity","Value":"sha256-2bPSyBSW6Lulzfa832\u002BD48S2LRVHoQhrw4xqa/GryGk="},{"Name":"label","Value":"_content/ProjetoMongoDB/Rotativa/wkhtmltopdf.exe"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"30235648"},{"Name":"Content-Type","Value":"application/vnd.microsoft.portable-executable"},{"Name":"ETag","Value":"\u00222bPSyBSW6Lulzfa832\u002BD48S2LRVHoQhrw4xqa/GryGk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 10 Jun 2020 20:03:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ProjetoMongoDB/Rotativa/wkhtmltox.dll">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Rotativa\wkhtmltox.dll'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iNxZZXLKktPxM/H7DLlXJX1yLDrALZChCToBLvGVq/s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"30098944"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022iNxZZXLKktPxM/H7DLlXJX1yLDrALZChCToBLvGVq/s=\u0022"},{"Name":"Last-Modified","Value":"Wed, 10 Jun 2020 20:02:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ProjetoMongoDB/Rotativa/wkhtmltox.w25v45g9f1.dll">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Rotativa\wkhtmltox.dll'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w25v45g9f1"},{"Name":"integrity","Value":"sha256-iNxZZXLKktPxM/H7DLlXJX1yLDrALZChCToBLvGVq/s="},{"Name":"label","Value":"_content/ProjetoMongoDB/Rotativa/wkhtmltox.dll"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"30098944"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022iNxZZXLKktPxM/H7DLlXJX1yLDrALZChCToBLvGVq/s=\u0022"},{"Name":"Last-Modified","Value":"Wed, 10 Jun 2020 20:02:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

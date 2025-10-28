@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\ProjetoMongoDB.6bktz6645y.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "PackagePath": "staticwebassets\\Rotativa\\wkhtmltopdf.exe"
+    },
+    {
+      "Id": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\wwwroot\\Rotativa\\wkhtmltox.dll",
+      "PackagePath": "staticwebassets\\Rotativa\\wkhtmltox.dll"
+    },
+    {
       "Id": "C:\\Users\\0201392321040\\Desktop\\vania_dw\\ProjetoMongoDB\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

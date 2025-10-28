@@ -48,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/0201392321040/Desktop/vania_dw/ProjetoMongoDB/Views/Evento/Certificado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvXENlcnRpZmljYWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/0201392321040/Desktop/vania_dw/ProjetoMongoDB/Views/Evento/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -66,10 +70,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/0201392321040/Desktop/vania_dw/ProjetoMongoDB/Views/Evento/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/0201392321040/Desktop/vania_dw/ProjetoMongoDB/Views/Home/Certificados.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDZXJ0aWZpY2Fkb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/0201392321040/Desktop/vania_dw/ProjetoMongoDB/Views/Home/Index.cshtml]
